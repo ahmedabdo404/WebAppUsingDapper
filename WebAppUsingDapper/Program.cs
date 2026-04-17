@@ -22,6 +22,7 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
+app.MapGet("/", () => Results.Redirect("/swagger"));
 app.UseHttpsRedirection();
 app.MapEmployeeEndpoint();
 app.Run();

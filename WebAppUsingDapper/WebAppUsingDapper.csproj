@@ -17,4 +17,8 @@
     <Folder Include="Models\Base\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Include=".github\workflows\master_webappusingdapper.yml" />
+  </ItemGroup>
+
 </Project>
